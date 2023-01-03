@@ -143,6 +143,10 @@ svg{
         width: 90%;
     }
 
+    .card{
+        margin: 0 20px 20px;
+    }
+
     .card p{
         font-size: 1.1em;
     }

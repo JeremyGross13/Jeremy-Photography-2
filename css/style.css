@@ -150,4 +150,30 @@ img{
         width: 100%;
         top: 0;
     }
+
+    img{
+        width: 350px;
+    }
+    
+    .vertical{
+        width: 350px;
+    }
+    
+    .vertical2{
+        width: 350px;
+    }
+}
+
+@media (max-width: 350px){
+    img{
+        width: 300px;
+    }
+    
+    .vertical{
+        width: 300px;
+    }
+    
+    .vertical2{
+        width: 300px;
+    }
 }
