@@ -1,3 +1,3 @@
 # Jeremy-Photography
 
-Personnal website to you my photos !
+Personnal website to show you my photos !
