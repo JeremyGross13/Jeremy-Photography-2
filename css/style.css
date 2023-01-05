@@ -105,6 +105,10 @@ img{
     width: 400px;
 }
 
+#retourner{
+    transform: rotate(-90deg);
+}
+
 /*---------- Media -----------*/
 
 @media (max-width: 600px){
