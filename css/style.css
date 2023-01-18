@@ -133,6 +133,7 @@ img{
         width: 100%;
         padding: 10px 0;
         margin-left: 20px;
+        background-color: #fff;
     }
 
     header.responsive button{
@@ -141,9 +142,11 @@ img{
     }
 
     header{
+        background-color: #fff;
+        position: fixed;
         flex-direction: column;
         min-height: 70px;
-        height: 100%;
+        height: 70px;
         align-items: flex-start;
     }
 
@@ -151,6 +154,10 @@ img{
         position: relative;
         width: 100%;
         top: 0;
+    }
+
+    section{
+        padding-top: 80px;
     }
 
     img{
