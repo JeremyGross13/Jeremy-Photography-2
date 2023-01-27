@@ -7,6 +7,23 @@ function myFunction() {
     }
 }
 
+function search() {
+    var searchInput = document.getElementById("search-input");
+    var searchValue = searchInput.value.toLowerCase();
+
+    var pages = ["monaco", "aquarium", "venelle", "begur"];
+
+    if (searchValue == "accueil") {
+        window.location.href = "index.html";
+    } else if (searchValue == "la ciotat") {
+        window.location.href = "html/laCiotat.html";
+    } else if (pages.includes(searchValue)) {
+        window.location.href = "html/" + searchValue + ".html";
+    } else {
+        alert("La page que vous recherchez n'existe pas.");
+    }
+}
+
 function choisirPhotosAleatoires() {
     const images = [
         "img/Aquarium/IMG_3615.webp",
@@ -78,7 +95,7 @@ function choisirPhotosAleatoires() {
 
     // Sélectionner 9 images aléatoirement
     const randomImages = [];
-    while (randomImages.length < 9) {
+    while (randomImages.length < 12) {
         const randomIndex = Math.floor(Math.random() * images.length);
         if (!randomImages.includes(images[randomIndex])) {
             randomImages.push(images[randomIndex]);

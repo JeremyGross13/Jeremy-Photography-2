@@ -77,6 +77,14 @@ header .icon {
     color: #000;
 }
 
+#search-input {
+    border: solid 1px rgb(141, 141, 141);
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 200px;
+    height: 25px;
+}
+
 /*--------- Section ----------*/
 
 section {
@@ -106,29 +114,13 @@ img {
     width: 400px;
 }
 
-#retourner {
-    transform: rotate(-90deg);
-}
-
-#scrollUp {
-    transition: ease 0.4s;
-    width: 40px;
-    position: fixed;
-    bottom: 10px;
-    right: -100px;
-    opacity: 0.5;
-}
-
-#scrollUp img {
-    width: 40px;
-}
-
 /*---------- Media -----------*/
 
 @media (max-width: 600px) {
 
     header>a,
-    header button {
+    header button,
+    header>input {
         display: none;
     }
 
@@ -143,7 +135,8 @@ img {
     }
 
     header.responsive>a,
-    header.responsive .dropdown-1 {
+    header.responsive .dropdown-1,
+    header.responsive>input {
         display: block;
         width: 100%;
         padding: 10px 0;
