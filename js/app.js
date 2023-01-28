@@ -106,7 +106,7 @@ function choisirPhotosAleatoires() {
     randomImages.forEach(image => {
         const div = document.createElement("div");
         div.classList.add("grid");
-        div.innerHTML = `<img style="width: 400px;" src="${image}" alt="photo">`;
+        div.innerHTML = `<img class="vertical2" src="${image}" alt="photo">`;
         section.appendChild(div);
     });
 }

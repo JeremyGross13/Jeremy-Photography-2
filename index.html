@@ -43,8 +43,12 @@
         <a href="html/aPropos.html">
             <button>A Propos</button>
         </a>
-        <input type="text" placeholder="Rechercher une page" id="search-input"
-            onkeydown="if (event.keyCode === 13) {search()}">
+        <div id="search">
+            <input type="text" placeholder="Rechercher une page" id="search-input"
+                onkeydown="if (event.keyCode === 13) {search()}">
+            <input type="submit" id="loupe" onclick="search()" value="&#128269;">
+        </div>
+
 
         <a class="icon" onclick="myFunction()">&#9776;</a>
 

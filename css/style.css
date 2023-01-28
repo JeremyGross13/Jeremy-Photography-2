@@ -85,6 +85,10 @@ header .icon {
     height: 25px;
 }
 
+#loupe {
+    display: none;
+}
+
 /*--------- Section ----------*/
 
 section {
@@ -120,7 +124,7 @@ img {
 
     header>a,
     header button,
-    header>input {
+    header>#search {
         display: none;
     }
 
@@ -136,7 +140,7 @@ img {
 
     header.responsive>a,
     header.responsive .dropdown-1,
-    header.responsive>input {
+    header.responsive>#search {
         display: block;
         width: 100%;
         padding: 10px 0;
@@ -162,6 +166,20 @@ img {
         position: relative;
         width: 100%;
         top: 0;
+    }
+
+    header.responsive #search {
+        padding-left: 20px !important;
+        display: flex !important;
+        flex-direction: row;
+    }
+
+    #loupe {
+        background-color: transparent;
+        margin-left: 5px;
+        display: flex;
+        border: none;
+        cursor: pointer;
     }
 
     section {
