@@ -1,3 +1,3 @@
-# Jeremy-Photography
+# La madeleine de prost
 
-Personnal website to show you my photos !
+ 
