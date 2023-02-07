@@ -1,12 +1,12 @@
 <?php
 
-final class ControleurAPropos
+final class ControleurHome
 {
     public function defautAction()
     {
-        Vue::montrer("Standard/enTete2");
+        Vue::montrer("Standard/enTete");
         Vue::montrer("Standard/menu");
-        Vue::montrer("APropos/aPropos");
+        Vue::montrer("Home/home");
         Vue::montrer("Standard/pied");
     }
 }

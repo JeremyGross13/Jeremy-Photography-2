@@ -17,7 +17,7 @@ final class Controleur
         $A_urlDecortique = explode('/', $S_url ?? '');
 
         if (empty($A_urlDecortique[0])) {
-            $A_urlDecortique[0] = 'ControleurAccueil';
+            $A_urlDecortique[0] = 'ControleurHome';
         } else {
             $A_urlDecortique[0] = 'Controleur' . ucfirst($A_urlDecortique[0]);
         }
@@ -55,7 +55,9 @@ final class Controleur
             array(
                 new $this->_A_urlDecortique['controleur'],
                 $this->_A_urlDecortique['action']
-            ), array($this->_A_urlParametres, $this->_A_postParams));
+            ),
+            array($this->_A_urlParametres, $this->_A_postParams)
+        );
 
         if (false === $B_called) {
             throw new ControleurException("L'action " . $this->_A_urlDecortique['action'] .

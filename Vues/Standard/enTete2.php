@@ -13,6 +13,4 @@ echo '<!DOCTYPE html>
     <link rel="stylesheet" href="css/style2.css">
     <link rel="icon" href="img/icon.png">
     <!-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by manshagraphics - Flaticon</a> -->
-</head>
-
-<body onload="choisirPhotosAleatoires()">';
+</head>';

@@ -1,8 +1,8 @@
 <?php
 echo '<header id="navbar" class="nav">
 
- <a href="Accueil">
-     <button>Accueil</button>
+ <a href="Home">
+     <button>Home</button>
  </a>
  <div class="dropdown-1">
      <button>Collection</button>
@@ -24,8 +24,8 @@ echo '<header id="navbar" class="nav">
          </a>
      </div>
  </div>
- <a href="APropos">
-     <button>A Propos</button>
+ <a href="Contact">
+     <button>Contact</button>
  </a>
  <a class="icon" onclick="myFunction()">&#9776;</a>
 
