@@ -1,6 +1,6 @@
 <?php
 
-final class ControleurVenelle
+final class ControleurSausset
 {
     public function defautAction()
     {
