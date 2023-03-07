@@ -22,6 +22,9 @@ echo '<header id="navbar" class="nav">
          <a href="Begur">
              <button>Begur</button>
          </a>
+         <a href="Sausset">
+             <button>Sausset</button>
+         </a>
      </div>
  </div>
  <a href="Contact">

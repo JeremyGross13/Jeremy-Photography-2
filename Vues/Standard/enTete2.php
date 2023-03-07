@@ -5,7 +5,7 @@ echo '<!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title> Jeremy Gross | Accueil </title>
+    <title> Jeremy Gross </title>
     <meta name="description" content="Jeremy Gross\'s Photographies">
     <meta name="keywords" content="photo, photographie, shooting, cars, landscape">
     <meta name="author" content="Jérémy Gross">
